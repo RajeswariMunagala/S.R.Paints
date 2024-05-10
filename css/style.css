@@ -1587,7 +1587,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 .banner-main {
      position: relative;
-     background-color: #136af8;
+     background-color: #380bea;
      background-size: 100% 100%;
 
 }
@@ -1604,7 +1604,7 @@ input[type="radio"] .styled:checked+label::after {
      color: #081b30;
 }
 .banner-main .carousel-caption p {
-     color: #ffffff;
+     color: #eeebf4;
      padding: 9px 0px;
      margin-bottom: 50px;
 }
@@ -1614,8 +1614,8 @@ input[type="radio"] .styled:checked+label::after {
 .btn-primary {
      background: #081b30;
      border: indianred;
-     max-width: 170px;
-     width: 100%;
+     max-width: 130px;
+     width: 30%;
      margin-right: 10px;
      border-radius: 25px;
 }
