@@ -9,6 +9,55 @@
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
       <title>S.R. Paints</title>
+      <style>
+         /* Style for the container */
+         #promotion-container {
+             width: 100%;
+             height: 200px; /* Adjust height as needed */
+             overflow: hidden;
+             position: relative;
+         }
+     
+         /* Style for individual promotions */
+         .promotion {
+             position: absolute;
+             bottom: 0;
+             left: 100%; /* Initially hides the promotion outside the container */
+             width: 100%;
+             min-width: 350px;
+             height: auto;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             background-color: #f2f2f2;
+             transition: left 0.9s ease-in-out;
+         }
+     
+         /* Style for the image */
+         .promotion img {
+             max-width: 50%;
+             height: auto;
+         }
+     
+         /* Style for the text information */
+         .promotion .text {
+             max-width: 50%;
+             padding: 10px;
+             padding-left: 85px;
+         }
+     
+         /* Animation to slide the promotions */
+         .move {
+             left: 0;
+         }
+         .imgsize{
+             
+             min-width: 80px;
+             min-height:60px ;
+     
+         }
+        
+     </style>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -39,6 +88,67 @@
          <div class="loader"><img src="images/srpaints.jpg" alt="#" /></div>
       </div>
       <!-- end loader -->
+      <div id="promotion-container">
+    
+         <a href="https://srijewellery.netlify.app"> <div class="promotion">
+             <p> Ads </p>
+             <div class="image">
+                 <img class="imgsize" src="images/newjs.jpg" alt="Promotion 1">
+             </div>
+             <div class="text">
+                 
+                 <p>ponnuru malli Sri Jewellery</p>
+             </div>
+         </div></a>
+     
+         <a href="https://bvsadd.netlify.app"><div class="promotion">
+             <p> Ads </p>
+             <div class="image">
+                 <img class="imgsize" src="images/bvsads1.jpg" alt="Promotion 2">
+             </div>
+             <div class="text">
+                 <p>Business Victory Solutions information</p>
+             </div>
+         </div></a>
+        
+         <a href="https://chavera.netlify.app"><div class="promotion">
+             <p> Ads </p>
+             <div class="image">
+                 <img class="imgsize" src="images/chavera.jpg" alt="Promotion 3">
+             </div>
+             <div class="text">
+                 <p>chavera </p>
+             </div>
+         </div></a>
+     
+         <a href="https://venkatashambhaviservicingcentre.netlify.app"><div class="promotion">
+             <p> Ads </p>
+             <div class="image">
+                 <img class="imgsize" src="images/company water.jpg" alt="Promotion 4">
+             </div>
+             <div class="text">
+                 <p>sri venkata sambhavi servicing centre</p>
+             </div>
+         </div></a>
+     </div>
+     
+     <script>
+         // JavaScript to rotate promotions every 5 seconds
+         document.addEventListener('DOMContentLoaded', function () {
+             var promotions = document.querySelectorAll('.promotion');
+             var index = 0;
+     
+             function rotatePromotion() {
+                 promotions[index].classList.remove('move');
+                 index = (index + 1) % promotions.length;
+                 promotions[index].classList.add('move');
+             }
+     
+             rotatePromotion(); // Initially display the first promotion
+     
+             setInterval(rotatePromotion, 10000); // Rotate promotion every 5 seconds
+         });
+     </script>
       
       <section >
          <div id="main_slider" class="section carousel slide banner-main" data-ride="carousel">
@@ -123,7 +233,7 @@
             
                      <h3><a href="https://maps.app.goo.gl/yWp49YgLTnVwtR7m9">Opposite Teachers Colony Trunk Road Kavali-524201</a></h3>
                      <h1><strong>Contact:<a href="tel:9440740137">9440740137</a>,<a href="tel:8019273331">8019273331</a></strong></h1>
-                     <span><strong>మా వధ మీకు కావాల్సిన అన్నీ రకాల పెయింటింగ్ రంగులు అతి తక్కువ ధరలో అంధుబాటులో ఉండును</strong></span>
+                     <span><strong>మా వద్ధ మీకు కావాల్సిన అన్నీ రకాల పెయింటింగ్ రంగులు అతి తక్కువ ధరలో అంధుబాటులో ఉండును</strong></span>
                      <h3><font color="blue">బాహ్య మరియు అంతర్గత గోడల కోసం నిర్దిష్ట రకాల హోమ్ పెయింట్‌లు ఉన్నాయి, ఇవి వాతావరణ పరిస్థితులు, దేశీయ పరిస్థితులు మరియు దుస్తులు మరియు కన్నీటి నుండి గోడలను రక్షించడంపై దృష్టి పెడతాయి.</font></h3>
                   </div>
                </div>
