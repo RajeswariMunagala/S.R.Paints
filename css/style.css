@@ -1580,7 +1580,7 @@ input[type="radio"] .styled:checked+label::after {
 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 .marginii {
-     margin: 154px 0px 100px 0px;
+     margin: 100px 0px 100px 0px;
 }
 .carousel-indicators li {
      display: none;
@@ -1588,11 +1588,11 @@ input[type="radio"] .styled:checked+label::after {
 .banner-main {
      position: relative;
      background-color: #380bea;
-     background-size: 100% 100%;
+     background-size: 50% 50%;
 
 }
 .banner-main .carousel-caption {
-     text-align: left;
+     text-align: center;
      left: 0;
      top: 16%;
      position: relative;
