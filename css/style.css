@@ -2271,10 +2271,10 @@ line-height: 30px;
 }
 .john{ 
      width: 100%; 
-     float: left;
-     background-color: #136af8;
+     float: centre;
+     background-color: #1e14db;
      height: auto;
-     background-size: 100%;
+     background-size: 10%;
      background-repeat: no-repeat;
 
 }
